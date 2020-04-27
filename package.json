@@ -1,23 +1,24 @@
 {
-  "name": "menttaskssv",
+  "name": "merntaskservidor",
   "version": "1.0.0",
-  "description": "MERN API",
+  "description": "MERN API para MERN TASKS",
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ."
   },
   "author": "Gustavo Iglesias",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.0"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-validator": "^6.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.8.10"
+    "mongoose": "^5.7.12"
   }
 }
