@@ -4,7 +4,7 @@
   "description": "MERN API para MERN TASKS",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
+    "start": "nodemon .",
     "dev": "nodemon ."
   },
   "author": "Gustavo iglesias",
@@ -20,6 +20,5 @@
     "express-validator": "^6.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.12"
-
   }
 }

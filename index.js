@@ -26,6 +26,6 @@ app.get('/', (req, res) => {
 
 
 app.listen(port, '0.0.0.0', () => {
-    console.log(`El servidor esta funcionando en el piuerto ${PORT}`)
+    console.log(`El servidor esta funcionando en el piuerto ${port}`)
 });
 
