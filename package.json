@@ -7,7 +7,7 @@
     "start": "node .",
     "dev": "nodemon ."
   },
-  "author": "Juan Pablo De la torre",
+  "author": "Gustavo iglesias",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.0"
